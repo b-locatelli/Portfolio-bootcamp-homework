@@ -14,7 +14,7 @@ body{
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(11, 186, 206);
-    color: aliceblue;
+    color: black;
 }
 
 .header h1{
@@ -45,27 +45,29 @@ main {
 
 .card {
     flex: 1 0 0;
-    padding: 10px;
+    padding: 3px;
     text-align: center;
     border-style: solid;
-    border-width: 1px;
+    border-width: 5px;
+    margin: 1px;
+    background-color: black;
 }
 
 .card h2 {
     text-align: center;
     background-color: rgb(11, 186, 206);
-    padding: 20px;
+    padding: 10px;
 }
 
 .card img {
     width: 100%;
-    min-width: 400px;
+    min-width: 600px;
 }
 
 .projects {
     flex: 4;
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -74,8 +76,9 @@ main {
 aside {
     flex: 1;
     background-color: rgb(11, 186, 206);
-    padding: 80px;
+    padding: 70px;
     text-align: center;
+    
 }
 
 .footer {

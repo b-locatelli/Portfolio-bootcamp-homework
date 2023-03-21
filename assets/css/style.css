@@ -67,7 +67,7 @@ main {
 .projects {
     flex: 4;
     background-color: #fff;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -86,7 +86,7 @@ main {
     padding: 20px;
     text-align: center;
     background: rgb(11, 186, 206);
-    color: #fff;
+    color: black;
 }
   
 @media screen and (max-width: 768px) {

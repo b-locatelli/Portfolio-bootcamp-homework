@@ -73,13 +73,17 @@ main {
     justify-content: center;
 }
 
-.aside.aside {
+.aside {
     flex: 1;
     background-color: rgb(11, 186, 206);
     padding: 15px;
     text-align: center;
     margin: 1px 0px;
     
+}
+
+.aside aside h2 {
+    margin-top: 75%;
 }
 
 .footer {

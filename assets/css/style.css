@@ -3,27 +3,33 @@
     padding: 0;
     margin: 0;
 }
+:root {
+    --back: rgb(0, 68, 89);
+    --word: white; 
+}
 
 body{
-    background-color: rgb(255, 255, 255);
-    flex-direction: column;
-    justify-content: flex-start;
+    background-color: rgb(0, 0, 0);
 }
 
 .header {
-    padding: 20px;
+    padding: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(11, 186, 206);
-    color: black;
+    background-color: var(--back);
+    color: var(--word);
+}
+
+ header img {
+    max-width: 80px;
 }
 
 .header h1{
     font-size: 35px;
-    display: inline-block;
+    display: inline;
 }
 
 .header nav {
-    padding-top: 15px;
+    padding-top: 30px;
     float: right;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -35,17 +41,19 @@ body{
 
 .header nav ul li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 main {
     display: flex;
-    flex-wrap: wrap;
+    font-size: 20px;
 }
 
 .Developer {
     width: 100%;
     text-align: center;
+    font-size: 30px;
+    color: black;
 }
 
 .card {
@@ -60,7 +68,7 @@ main {
 
 .card h2 {
     text-align: center;
-    background-color: rgb(11, 186, 206);
+    background-color: var(--back);
     padding: 10px;
 }
 
@@ -71,19 +79,20 @@ main {
 
 .projects {
     flex: 4;
-    background-color: #fff;
+    background-color: white;
     padding: 5px;
     display: flex;
     flex-wrap: wrap-reverse;
-    justify-content: center;
+    color: var(--word);
 }
 
 .aside {
     flex: 1;
-    background-color: rgb(11, 186, 206);
+    background-color: var(--back);
     padding: 15px;
     text-align: center;
     margin: 1px 0px;
+    color: var(--word);
     
 }
 
@@ -94,13 +103,16 @@ main {
 .footer {
     padding: 20px;
     text-align: center;
-    background: rgb(11, 186, 206);
-    color: black;
+    background: var(--back);
+    color: var(--word);
+    font-size: 20px;
 }
   
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 992px) {
     main,
-    nav {
-        flex-direction: column;
+    .header nav, 
+    .footer {
+       font-size: 30px;
     }
-}
+ }

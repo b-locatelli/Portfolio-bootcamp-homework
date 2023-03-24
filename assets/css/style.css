@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 :root {
     --back: rgb(0, 68, 89);
     --word: white; 
@@ -19,13 +20,14 @@ body{
     color: var(--word);
 }
 
- header img {
+ .header img {
     max-width: 80px;
 }
 
-.header h1{
+h1 {
     font-size: 35px;
-    display: inline;
+    float: left;
+    padding-top: 15px;
 }
 
 .header nav {
@@ -42,6 +44,10 @@ body{
 .header nav ul li {
     display: inline-block;
     margin-left: 80px;
+}
+
+a {
+    color: var(--word);
 }
 
 main {
@@ -107,7 +113,6 @@ main {
     color: var(--word);
     font-size: 20px;
 }
-  
 
 @media screen and (max-width: 992px) {
     main,

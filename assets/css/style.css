@@ -43,6 +43,11 @@ main {
     flex-wrap: wrap;
 }
 
+.Developer {
+    width: 100%;
+    text-align: center;
+}
+
 .card {
     flex: 1 0 0;
     padding: 3px;
@@ -69,7 +74,7 @@ main {
     background-color: #fff;
     padding: 5px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: center;
 }
 

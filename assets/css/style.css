@@ -92,7 +92,7 @@ main {
     color: var(--word);
 }
 
-.aside {
+.about {
     flex: 1;
     background-color: var(--back);
     padding: 15px;
@@ -102,7 +102,7 @@ main {
     
 }
 
-.aside aside h2 {
+.about aside h2 {
     margin-top: 75%;
 }
 

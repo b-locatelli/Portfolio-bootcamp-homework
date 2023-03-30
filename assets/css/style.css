@@ -14,20 +14,15 @@ body{
 }
 
 .header {
-    padding: 40px;
+    padding: 65px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: var(--back);
     color: var(--word);
-}
-
- .header img {
-    max-width: 80px;
+    flex-wrap: nowrap
 }
 
 h1 {
     font-size: 35px;
-    float: left;
-    padding-top: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -54,6 +49,7 @@ a {
 main {
     display: flex;
     font-size: 20px;
+    width: 100%;
 }
 
 .Developer {

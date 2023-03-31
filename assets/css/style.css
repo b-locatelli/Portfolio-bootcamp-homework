@@ -15,7 +15,6 @@ body{
 
 .header {
     width: 100%;
-    
     padding: 65px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: var(--back);
@@ -119,7 +118,8 @@ main {
 }
 
 .about aside p {
-    line-height: 2;
+    margin: 15px;
+    line-height: 2.5;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -136,7 +136,7 @@ main {
     main,
     .header nav, 
     .footer {
-       font-size: 30px;
+       font-size: 25px;
        line-height: 1;
     }
  }
